@@ -22,4 +22,29 @@ const Campground = require('../models/campground');
 
     router.get('/:id/edit', isLoggedIn, isAuthor, catchAsync(campgrounds.renderEditForm));
     
-module.exports = router;    
+module.exports = router;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
